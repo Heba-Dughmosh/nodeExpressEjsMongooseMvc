@@ -8,7 +8,7 @@ mongoose.connect('mongodb://localhost:27017/mongoConference');
 
 const app = express();
 const __dirname = path.resolve(path.dirname(''));
-const port = 3044;
+const port = 3041;
 const staticDirectory = path.join(__dirname, './public');
 
 app.set('view engine', 'ejs');
